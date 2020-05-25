@@ -5,20 +5,33 @@
     "ios": "react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "unlink": "react-native unlink react-native-vector-icons"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-mapbox-gl/maps": "^8.1.0-beta.1",
+    "@react-navigation/drawer": "^5.8.0",
+    "@react-navigation/native": "^5.4.3",
+    "@react-navigation/stack": "^5.4.0",
+    "axios": "^0.19.2",
     "expo": "~37.0.3",
     "expo-splash-screen": "^0.2.3",
     "expo-updates": "~0.2.0",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",
     "react-native": "~0.61.5",
-    "react-native-gesture-handler": "~1.6.0",
-    "react-native-reanimated": "~1.7.0",
-    "react-native-screens": "~2.2.0",
+    "react-native-action-button": "^2.8.5",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^2.0.0",
+    "react-native-screens": "^2.8.0",
+    "react-native-scroll-bottom-sheet": "^0.6.0",
     "react-native-unimodules": "~0.9.0",
-    "react-native-web": "~0.11.7"
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
